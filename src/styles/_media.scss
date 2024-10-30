@@ -1,0 +1,69 @@
+@media (max-width: 1200px) {
+    .modal-content {
+        width: 34%;
+        font-size: 18px;
+        padding: 15px;    
+        height: 12%;
+    }
+
+    .modal-close {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contacts__title {
+        font-size: 24px;
+    }
+
+    .form-container {
+        padding: 15px;
+    }
+
+    .form__input,
+    .form__textarea {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .form__button {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .modal-content {
+        width: 60%;   
+    }
+}
+
+@media (max-width: 480px) {
+    .contacts__title {
+        font-size: 20px;
+    }
+
+    .form-container {
+        padding: 10px;
+    }
+
+    .form__input,
+    .form__textarea {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .form__button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .modal-content {
+        width: 80%;
+        font-size: 16px;
+        padding: 10px;
+        height: 8%;
+    }
+
+    .modal-close {
+        font-size: 20px;
+    }
+}

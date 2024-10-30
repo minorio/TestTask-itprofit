@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link href="./styles/main.css">
+</head>
+<body>
+  <div class="container">
+    <div class="modal" id="responseModal">
+      <div class="modal-content">
+          <p id="modalMessage">Сообщение</p>
+          <span class="modal-close">&times;</span>
+      </div>
+    </div>
+    <section class="contacts">
+      <h1 class="contacts__title">Есть вопросы? Напишите нам!</h1>
+      <div class="form-container">
+        <form class="form">
+          <div class="form__field">
+            <input
+              class="form__input form__input--name"
+              type='text'
+              placeholder='Ваше имя'
+              name="name"
+            />
+          </div>
+          <div class="form__field">
+            <input
+              class="form__input form__input--email"
+              type='email'
+              placeholder='Ваш email'
+              name="email"
+            />
+          </div>
+          <div class="form__field">
+            <input
+            class="form__input form__input--phone"
+            type='text'
+            placeholder='Ваш телефон'
+            name="phone"
+          />
+        </div>
+          <div class="form__field">
+            <textarea
+              class="form__textarea"
+              placeholder='Ваше сообщение'
+              name="message" required
+            ></textarea>
+          </div>
+          <div class="form__message"></div>
+          <button class="form__button" type='submit'>
+            Отправить
+          </button>
+        </form>
+      </div>
+    </section>
+</div>
+  <script src="bundle.js" defer></script>
+</body>
+</html>
